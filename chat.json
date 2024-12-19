@@ -16,5 +16,13 @@
         "metadata": {
             "component_id": "Hero1734447809"
         }
+    },
+    {
+        "id": "7837a2c5-36e6-4663-a4f4-b2cdfe2a654b",
+        "timestamp": "2024-12-19T03:06:29.449621Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "I see that you have selected the Hero component. How would you like to edit or test it?",
+        "metadata": {}
     }
 ]
