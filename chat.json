@@ -6,5 +6,23 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "34c29483-f3a4-41ba-baf1-e689d5459813",
+        "timestamp": "2024-12-19T03:06:28.461336Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "test",
+        "metadata": {
+            "component_id": "Hero1734447809"
+        }
+    },
+    {
+        "id": "7837a2c5-36e6-4663-a4f4-b2cdfe2a654b",
+        "timestamp": "2024-12-19T03:06:29.449621Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "I see that you have selected the Hero component. How would you like to edit or test it?",
+        "metadata": {}
     }
 ]
