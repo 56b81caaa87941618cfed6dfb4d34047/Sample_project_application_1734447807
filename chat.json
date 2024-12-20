@@ -126,5 +126,56 @@
         "source": "base_assistant",
         "content": "I have updated the hero background to blue. What else would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "1b2a8966-482f-46e9-9818-bb0239e77f9c",
+        "timestamp": "2024-12-20T19:21:14.170466Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "change background to yellow",
+        "metadata": {
+            "component_id": "Hero1734447809"
+        }
+    },
+    {
+        "id": "d3a3c46c-1eca-4d9d-a268-b1cee78956ac",
+        "timestamp": "2024-12-20T19:21:15.291239Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_TBtEa82EA95PUdoVPDrSiw8E",
+            "function": {
+                "arguments": "{\"component_id\": \"Hero1734447809\", \"change_description\": \"Change the background color to yellow\", \"acknowledgement_message\": \"Okay, I'm updating the hero background to yellow.\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "67fc403c-dcb4-484e-8c27-ee23754d2c43",
+        "timestamp": "2024-12-20T19:21:15.322470Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Okay, I'm updating the hero background to yellow.",
+        "metadata": {}
+    },
+    {
+        "id": "1c3b275d-8d7a-4b7c-ba37-6bbdb5c9b2e1",
+        "timestamp": "2024-12-20T19:21:20.959726Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_TBtEa82EA95PUdoVPDrSiw8E"
+        }
+    },
+    {
+        "id": "6490c787-bcde-4eaa-af7d-62b16f04d9d9",
+        "timestamp": "2024-12-20T19:21:21.865601Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "I have updated the hero background to yellow. Is there anything else you want to modify?",
+        "metadata": {}
     }
 ]
