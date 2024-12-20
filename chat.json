@@ -24,5 +24,56 @@
         "source": "base_assistant",
         "content": "I see that you have selected the Hero component. How would you like to edit or test it?",
         "metadata": {}
+    },
+    {
+        "id": "82d633cd-7d5f-49ed-9e3c-79661d7729da",
+        "timestamp": "2024-12-20T03:31:45.081891Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "make background green",
+        "metadata": {
+            "component_id": "Header1734447809"
+        }
+    },
+    {
+        "id": "c49af712-5d3f-42b7-886f-d4f8533ca05c",
+        "timestamp": "2024-12-20T03:31:46.554432Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_q2Bj2oPRyEzN3SbWjiZn8C76",
+            "function": {
+                "arguments": "{\"component_id\": \"Header1734447809\", \"change_description\": \"Change the background color to green\", \"acknowledgement_message\": \"Okay, I'm updating the header background to green.\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "c0be21aa-b76c-4d92-ac2d-69983fe88b78",
+        "timestamp": "2024-12-20T03:31:46.775010Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Okay, I'm updating the header background to green.",
+        "metadata": {}
+    },
+    {
+        "id": "d919eebe-b76b-4e88-a6b1-04db19118f1e",
+        "timestamp": "2024-12-20T03:31:52.745801Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_q2Bj2oPRyEzN3SbWjiZn8C76"
+        }
+    },
+    {
+        "id": "86e7ea86-19f9-4d6d-a13f-b3cb48014bf3",
+        "timestamp": "2024-12-20T03:31:53.401664Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "I have updated the header background to green. What's next on your list?",
+        "metadata": {}
     }
 ]
