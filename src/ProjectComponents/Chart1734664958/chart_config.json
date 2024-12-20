@@ -1,0 +1,66 @@
+{
+    "source_visual_id": "2fe6112a-68ce-4c45-85e4-b47cfc0eb495",
+    "query_id": "58c404d7-a751-4d86-84de-530196f5bd5b",
+    "description": "",
+    "graph_type": "pie_chart",
+    "echart_config": {
+        "title": {
+            "text": "sample-test1",
+            "textStyle": {
+                "color": "#ffffff"
+            }
+        },
+        "backgroundColor": "#261c3b",
+        "legend": {
+            "show": true,
+            "top": "bottom",
+            "left": 0,
+            "type": "scroll",
+            "itemGap": 15,
+            "textStyle": {
+                "color": "#ffffff"
+            },
+            "padding": [
+                0,
+                80,
+                0,
+                0
+            ],
+            "pageIconColor": "rgba(255,255,255,0.8)",
+            "pageIconInactiveColor": "rgba(255,255,255,0.4)",
+            "pageTextStyle": {
+                "color": "rgba(255,255,255,0.8)"
+            }
+        },
+        "tooltip": {
+            "show": true,
+            "trigger": "item",
+            "borderWidth": 0,
+            "appendToBody": true,
+            "backgroundColor": "rgba(34, 25, 63, 0.8)",
+            "textStyle": {
+                "color": "#E6E6E6",
+                "fontSize": 12,
+                "fontFamily": "Inter",
+                "fontWeight": "regular"
+            }
+        },
+        "series": [
+            {
+                "type": "pie",
+                "encode": {
+                    "itemName": "RECEIPTS_ROOT",
+                    "value": "BLOCK_NUMBER"
+                },
+                "radius": [
+                    "40%",
+                    "50%"
+                ],
+                "label": {
+                    "show": true,
+                    "color": "#999999"
+                }
+            }
+        ]
+    }
+}
