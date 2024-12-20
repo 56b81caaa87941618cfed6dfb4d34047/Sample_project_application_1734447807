@@ -126,5 +126,15 @@
         "source": "base_assistant",
         "content": "I have updated the hero background to blue. What else would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "1b2a8966-482f-46e9-9818-bb0239e77f9c",
+        "timestamp": "2024-12-20T19:21:14.170466Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "change background to yellow",
+        "metadata": {
+            "component_id": "Hero1734447809"
+        }
     }
 ]
