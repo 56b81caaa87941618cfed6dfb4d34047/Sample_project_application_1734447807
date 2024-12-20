@@ -75,5 +75,15 @@
         "source": "base_assistant",
         "content": "I have updated the header background to green. What's next on your list?",
         "metadata": {}
+    },
+    {
+        "id": "d36f64dc-ef9a-406e-b69b-0702f52299bd",
+        "timestamp": "2024-12-20T19:20:47.616573Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "change background color to blue",
+        "metadata": {
+            "component_id": "Hero1734447809"
+        }
     }
 ]
